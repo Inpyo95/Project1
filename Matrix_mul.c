@@ -12,7 +12,7 @@ int main()
 
 	for (int i = 0; i < ROWS; i++)
 		for (int j = 0; j < COLS; j++)
-			c[i][j] = a[i][j] - b[i][j];
+			c[i][j] = a[i][0] * b[0][j] + a[i][1] * b[1][j];
 
 	for (int i = 0; i < ROWS; i++)
 	{
