@@ -4,10 +4,10 @@
 
 int main()
 {
-	int a[ROWS][COLS] = { {2,5}, 
-						  {1,4} };
-	int b[ROWS][COLS] = { {3,6},
-						  {5,8} };
+	int a[ROWS][COLS] = { {3,4}, 
+						  {2,3} };
+	int b[ROWS][COLS] = { {4,7},
+						  {6,9} };
 	int c[ROWS][COLS];
 
 	for (int i = 0; i < ROWS; i++)
